@@ -1,0 +1,64 @@
+.formContainer {
+  background-color: #fafafa;
+  width: 40%;
+  height: 38vh;
+  box-shadow: 1px 1px 5px 0.3px rgb(0, 210, 144);
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .formContainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .formContainer {
+    width: 80%;
+  }
+}
+
+.form {
+  height: 38vh;
+  display: flex;
+  align-items: center;
+}
+
+.dataHolder {
+  width: 60%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.loginInput {
+  padding: 0.25rem;
+  margin-bottom: 0.4rem;
+}
+
+.loginInput ~ button {
+  width: 40%;
+  background-color: #000000;
+  border: 1px solid #efefef;
+  padding: 0.35rem;
+  color: #ffffff;
+  margin-left: auto;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.text {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.registerText {
+  font-size: 0.8rem;
+  color: blue;
+  text-align: end;
+  font-weight: 500;
+}

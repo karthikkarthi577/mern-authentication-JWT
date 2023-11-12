@@ -1,0 +1,46 @@
+.navContainer {
+  background-color: rgb(0, 210, 144);
+  box-shadow: 1px 1px 3px 1px black;
+}
+
+.nav {
+  display: flex;
+  height: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navIcon {
+  flex-basis: 20%;
+  font-size: 2rem;
+}
+
+.navListContainer {
+  flex-basis: 15%;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.navList > a:hover {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logOut {
+  background-color: black;
+  padding: 0.18rem;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

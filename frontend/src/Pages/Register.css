@@ -1,0 +1,57 @@
+.formContainer {
+  background-color: #efefef;
+  width: 40%;
+  height: 48vh;
+  box-shadow: 1px 1px 5px 0.3px rgb(0, 210, 144);
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .formContainer {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .formContainer {
+    width: 80%;
+ 
+  }
+}
+.form {
+  height: 45vh;
+  display: flex;
+  align-items: center;
+}
+.text {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.dataHolder {
+  width: 60%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.input {
+  padding: 0.28rem;
+  margin-bottom: 0.4rem;
+}
+
+.input ~ button {
+  width: 40%;
+  background-color: #000000;
+  border: 1px solid #efefef;
+  padding: 0.35rem;
+  color: #ffffff;
+  margin-left: auto;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
